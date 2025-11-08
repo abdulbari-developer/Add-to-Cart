@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Navbar from './components/navbar';
+import Navbar from './components/Navbar';
 import Raut from './components/raut';
 const App = () => {
   const [cartItem, setcartItem] = useState([])
