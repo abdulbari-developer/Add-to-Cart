@@ -1,5 +1,5 @@
 import React from 'react'
-import product_Detail from './ProductDetail'
+import product_Detail from './ProductDetail.jsx'
 import './style.css'
 
 const Product = ({ AddToCart }) => {

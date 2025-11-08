@@ -2,8 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Navbar from './components/Navbar';
-import Raut from './components/raut';
+import Navbar from './components/Navbar.jsx';
+import Raut from './components/raut.jsx';
 const App = () => {
   const [cartItem, setcartItem] = useState([])
   const AddToCart = (product) => {
